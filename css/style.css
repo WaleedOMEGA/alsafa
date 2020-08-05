@@ -1,0 +1,1392 @@
+/*start main rules*/
+body{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+* {
+   margin: 0px;
+   padding: 0px;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #4B0005;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+/*end main rules*/
+/*start header*/
+header{
+   background-color: #4B0005;
+   overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;    
+}
+.logo img{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+.slogan{
+    width: 80%;
+    float: right;
+}
+img{
+    max-width: 80%;
+}
+.s2{
+    margin-right: 12em;
+    max-width: 80%;
+}
+/*end header*/
+/*start nav*/
+.navbar{
+    background-color: #9B50BA;
+    height: 50px
+}
+nav{
+    margin: 10px auto;
+    width:100%;
+    float: right;
+    color: #4B0005;
+    background-color: #9B50BA;
+
+}
+nav ul{
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0;
+}
+nav .main{
+    margin-right: 40px;
+    margin-top: 5px;
+}
+nav ul a{
+	display:block;
+    font-weight: bold;
+	font-size:1.2em;
+	line-height:1em;
+	padding:0 10px;
+    cursor: pointer;
+}
+nav ul li{
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0
+}
+nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	right:0;
+	padding:0;
+    background-color:#9B50BA;
+}
+nav ul ul li{
+	float:none;
+	width:270px
+}
+nav ul ul a{
+	line-height:100%;
+	padding:10px 10px
+}
+nav ul ul ul{
+	top:0;
+	right:100%
+}
+nav ul li:hover > ul{
+	display:block;
+}
+nav a:hover{
+    color: #fff;
+}
+/*end nav*/
+/*start Home*/
+.home{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.home img{
+    float: left;
+    width: 40%;
+}
+.home .text{
+    float: right;
+    width: 50%;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    padding-top: 10px;
+    font-weight: bold;
+}
+/*end Home*/
+/*start we*/
+.we{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.we img{
+    float: right;
+    width: 40%;
+}
+.we .text{
+    float: left;
+    width: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end we*/
+/*start services*/
+.service{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.service img{
+    float: left;
+    width: 40%;
+    padding-top: 75px;
+}
+.service .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end services*/
+/*start guide*/
+.guide{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.guide img{
+    float: right;
+    width: 40%;
+    padding-top: 250px;
+}
+.guide .text{
+    float: left;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end guide*/
+/*start learn*/
+.learn{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.learn img{
+    float: left;
+    width: 40%;
+    padding-top: 150px;
+}
+.learn .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end learn*/
+/*start solo*/
+.solo{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.solo img{
+    float: right;
+    width: 40%;
+    padding-top: 350px;
+}
+.solo .text{
+    float: left;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end solo*/
+/*start down*/
+.down{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.down img{
+    float: left;
+    width: 40%;
+    padding-top: 155px;
+}
+.down .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end down*/
+/*start brain*/
+.brain{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.brain img{
+    float: right;
+    width: 40%;
+}
+.brain .text{
+    float: left;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end brain*/
+/*start move*/
+.move{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.photo{
+    float: left;
+    width: 40%;
+}
+.move .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end move*/
+/*start palsy*/
+.palsy{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.palsy img{
+    float: right;
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.palsy .text{
+    float: left;
+    width: 50%;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end palsy*/
+/*start edit*/
+.edit{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.edit .photo{
+    float: left;
+    width: 40%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.edit .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end edit*/
+/*start therapy*/
+.therapy{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.therapy img{
+    float: right;
+    width: 40%;
+    padding-top: 250px;
+}
+.therapy .text{
+    float: left;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end therapy*/
+/*start early*/
+.early{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.early img{
+    float: left;
+    width: 40%;
+    padding-top: 200px;
+}
+.early .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end early*/
+/*start skill*/
+.skill{
+    background-color: #EFFAFF;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.skill img{
+    float: right;
+    width: 40%;
+    padding-top: 150px;
+}
+.skill .text{
+    float: left;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end skill*/
+/*start speak*/
+.speak{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.speak .photo{
+    float: left;
+    width: 40%;
+    padding-top: 200px;
+}
+.speak .text{
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end speak*/
+/*start consult*/
+.consult{
+    background-color: #EFFAFF;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+.consult .form{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+.consult .form label{
+    display: block;
+    color: #4B0005;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+.consult .form input[type="text"]{
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    background-color: #FBFCFC;
+    color: #4B0005;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+}
+.consult .form textarea{
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    background-color: #FBFCFC;
+    color: #4B0005;
+    padding: 10px;
+    border: 1px solid;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 200px;
+}
+.consult .form input[type="submit"]{
+   border: 3px solid #4B0005;
+   background-color: #FBFCFC;
+   padding: 10px 20px;
+   color:#4B0005;
+   font-weight: bold;
+   margin: 10px auto;
+   width: 80%;
+   font-size: 1em;
+   text-align: center;
+   line-height: 2em;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.consult .form input[type="submit"]:hover{
+    background-color: #4B0005;
+    color:#FBFCFC;
+}
+/*end consult*/
+/*start contact*/
+.contact{
+    background-color: #FBFCFC;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    color: #4B0005;
+    font-weight: bold;
+}
+/*end contact*/
+/*start footer*/
+footer{
+   background-color: #4B0005;
+   overflow: hidden;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+   font-size: 1em;
+   text-align: center;
+   line-height: 2em;
+   color: #FBFCFC;
+   font-weight: bold;
+}
+footer span{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+   font-size: 1.2em;
+   text-align: center;
+   line-height: 2em;
+   color: #FBFCFC;
+   font-weight: bold;
+}
+footer a{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+   font-size: 1.2em;
+   text-align: center;
+   line-height: 2em;
+   color: #1473BB;
+   font-weight: bold;
+}
+footer a:hover{
+    color: #EFFAFF;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+footer ul li{
+    display: inline-block
+}
+footer ul li i:hover{
+    color: #fff;
+}
+/*end footer*/
+/*start scroll*/
+#scroll{
+    width: 50px;
+    height: 40px;
+    color: #9B50BA;
+    display: none;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#scroll:hover{
+    color: #1473BB
+}
+/*end scroll*/
+/*start slicknav*/
+.slicknav_menu {
+	background: #9B50BA;
+    display: none;
+}
+/*end slicknav*/
+/*start media query*/
+@media (max-width:480px){
+   /*header*/
+    .s2{
+    margin-right: 3em;
+    width: 30%;
+    }
+    /*nav*/
+    .navbar{
+    height: 0;
+    }
+    /*home*/
+    .home{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .home .text{
+    font-size: 0.2em;
+    padding-top: 5px;
+    }
+    /*we*/
+    .we{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .we .text{
+    font-size: 0.2em;
+    }
+    .we img{
+        padding-top: 0px;
+    }
+    /*services*/
+    .service{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .service .text{
+    font-size: 0.2em;
+    }
+    .service img{
+    padding-top: 50px;
+    }
+    /*guide*/
+    .guide{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .guide img{
+    padding-top: 150px;
+    }
+    .guide .text{
+    font-size: 0.2em;
+    }
+    /*learn*/
+    .learn{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .learn .text{
+    font-size: 0.2em;
+    }
+    .learn img{
+    padding-top: 50px;
+    }
+    /*solo*/
+    .solo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .solo img{
+    padding-top: 150px;
+    }
+    .solo .text{
+    font-size: 0.2em;
+    }
+    /*down*/
+    .down{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .down img{
+    padding-top: 50px;
+    }
+    .down .text{
+    font-size: 0.2em;
+    }
+    /*brain*/
+    .brain{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .brain img{
+    padding-top: 0px;
+    }
+    .brain .text{
+    font-size: 0.2em;
+    }
+    /*move*/
+    .move{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .move .text{
+    font-size: 0.5em;
+    }
+    .move .photo{
+    padding-top: 0px;
+    }
+    /*palsy*/
+    .palsy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    } 
+    .palsy .text{
+    font-size: 0.5em;
+    }
+    /*edit*/
+    .edit{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .edit .text{
+    font-size: 0.2em;
+    }
+    .edit img{
+    padding-top: 0px;
+    }
+    /*therapy*/
+    .therapy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .therapy .text{
+    font-size: 0.2em;
+    }
+    .therapy img{
+    padding-top: 50px;
+    }
+    /*early*/
+    .early{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .early .text{
+    font-size: 0.2em;
+    }
+    .early img{
+    padding-top: 100px;
+    }
+    /*skill*/
+    .skill{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .skill .text{
+    font-size: 0.2em;
+    }
+    .skill img{
+    padding-top: 50px;
+    }
+    /*speak*/
+    .speak{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .speak .text{
+    font-size: 0.2em;
+    }
+    .speak .photo{
+    padding-top: 50px;
+    }
+    /*consult*/
+    .consult{
+    font-size: 0.2em;
+    }
+    .consult .form{
+    font-size: 0.2em;
+    }
+    /*contact*/
+    .contact{
+        font-size: 0.5em;
+    }
+    /*footer*/
+    footer{
+        font-size: 0.2em;
+    }
+    footer span{
+   font-size: 0.2em;
+    }
+    /*scroll*/
+    #scroll{
+    width: 25px;
+    height: 20px;
+    right: 25px;
+    bottom: 25px;
+    }
+    /*slicknav*/
+    #menu{
+        display: none;
+    }
+	.slicknav_menu {
+		display:block;
+	}
+}
+/*smart phones & tablets*/
+@media (min-width:481px) and (max-width:767px){
+    /*header*/
+    .s2{
+    margin-right: 5em;
+    width: 30%;
+    }
+    /*nav*/
+    .navbar{
+    height: 0;
+    }
+    /*home*/
+    .home{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .home .text{
+    font-size: 0.64em;
+    }
+    /*we*/
+    .we{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .we .text{
+    font-size: 0.7em;
+    }
+    .we img{
+    padding-top: 50px;
+    }
+    /*services*/
+    .service{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .service img{
+    padding-top: 150px;
+    }
+    .service .text{
+    font-size: 0.7em;
+    }
+    /*guide*/
+    .guide{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .guide img{
+    padding-top: 250px;
+    }
+    .guide .text{
+    font-size: 0.6em;
+    }
+    /*learn*/
+    .learn{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .learn img{
+    padding-top: 150px;
+    }
+    .learn .text{
+    font-size: 0.7em; 
+    }
+    /*solo*/
+    .solo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .solo img{
+    padding-top: 250px;
+    }
+    .solo .text{
+    font-size: 0.6em;
+    }
+    /*down*/
+    .down{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .down img{
+    padding-top: 150px;
+    }
+    .down .text{
+    font-size: 0.6em;
+    }
+    /*brain*/
+    .brain{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .brain img{
+    padding-top: 150px;
+    }
+    .brain .text{
+    font-size: 0.7em;
+    }
+    /*move*/
+    .move{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .move .text{
+    font-size: 0.6em;
+    }
+    /*palsy*/
+    .palsy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    } 
+    .palsy .text{
+    font-size: 0.6em;
+    }
+    /*edit*/
+    .edit{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .edit .text{
+    font-size: 0.6em;
+    }
+    .edit img{
+    padding-top: 50px;
+    }
+    /*therapy*/
+    .therapy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .therapy .text{
+    font-size: 0.6em;
+    }
+    .therapy img{
+    padding-top: 250px;
+    }
+    /*early*/
+    .early{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .early .text{
+    font-size: 0.6em;
+    }
+    .early img{
+    padding-top: 200px;
+    }
+    /*skill*/
+    .skill{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .skill .text{
+    font-size: 0.6em;
+    }
+    .skill img{
+    padding-top: 200px;
+    }
+    /*speak*/
+    .speak{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .speak .text{
+    font-size: 0.6em;
+    }
+    .speak .photo{
+    padding-top: 200px;
+    }
+    /*consult*/
+    .consult{
+    font-size: 0.8em;
+    }
+    .consult .form{
+    font-size: 0.9em;
+    }
+    /*contact*/
+    .contact{
+        font-size: 0.8em;
+    }
+    /*footer*/
+    footer{
+       font-size: 0.8em; 
+    }
+    footer span{
+    font-size: 0.8em;
+    }
+    /*scroll*/
+    #scroll{
+    width: 25px;
+    height: 20px;
+    right: 25px;
+    bottom: 20px;
+    }
+    /*slicknav*/
+    #menu{
+        display: none;
+    }
+	.slicknav_menu {
+		display:block;
+	}
+}
+/*small screen*/
+@media (min-width:768px) and (max-width:991px){
+    /*header*/
+    .s2{
+    margin-right: 5em;
+    }
+    /*nav*/
+    nav .main{
+    margin-right: 0px;
+    }
+    nav ul a{
+	font-size:0.8em;
+	padding:0 5px;
+    }
+    nav ul ul li{
+	width:150px
+    }
+    nav ul ul a{
+	padding:5px 5px
+    }
+    /*home*/
+    .home{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .home .text{
+    font-size: 0.8em;
+    padding-top: 5px;
+    }
+    /*we*/
+    .we{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .we .text{
+    font-size: 0.8em;
+    }
+    .we img{
+        padding-top: 50px;
+    }
+    /*services*/
+    .service{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .service img{
+    padding-top: 150px;
+    }
+    /*guide*/
+    .guide{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .guide img{
+    padding-top: 250px;
+    }
+    .guide .text{
+    font-size: 0.8em;
+    }
+    /*learn*/
+    .learn{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .learn img{
+    padding-top: 250px;
+    }
+    /*solo*/
+    .solo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .solo img{
+    padding-top: 150px;
+    }
+    .solo .text{
+    font-size: 0.8em;
+    }
+    /*down*/
+    .down{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .down img{
+    padding-top: 150px;
+    }
+    .down .text{
+    font-size: 0.8em;
+    }
+    /*brain*/
+    .brain{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .brain img{
+    padding-top: 250px;
+    }
+    .brain .text{
+    font-size: 0.9em;
+    }
+    /*move*/
+    .move{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .move .text{
+    font-size: 0.8em;
+    }
+    /*palsy*/
+    .palsy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    } 
+    .palsy .text{
+    font-size: 0.8em;
+    }
+    /*edit*/
+    .edit{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .edit .text{
+    font-size: 0.8em;
+    }
+    .edit img{
+    padding-top: 50px;
+    }
+    /*therapy*/
+    .therapy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .therapy .text{
+    font-size: 0.8em;
+    }
+    .therapy img{
+    padding-top: 250px;
+    }
+    /*early*/
+    .early{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .early .text{
+    font-size: 0.8em;
+    }
+    .early img{
+    padding-top: 400px;
+    }
+    /*skill*/
+    .skill{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .skill .text{
+    font-size: 0.8em;
+    }
+    .skill img{
+    padding-top: 250px;
+    }
+    /*speak*/
+    .speak{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .speak .text{
+    font-size: 0.8em;
+    }
+    .speak .photo{
+    padding-top: 250px;
+    }
+    /*consult*/
+    .consult{
+    font-size: 0.8em;
+    }
+    .consult .form{
+    font-size: 0.9em;
+    }
+    /*footer*/
+    footer span{
+   font-size: 1em;
+    }
+    /*scroll*/
+    #scroll{
+    width: 25px;
+    height: 20px;
+    right: 25px;
+    bottom: 20px;
+    }
+}
+/*medium screen*/
+@media (min-width:992px) and (max-width:1199px){
+    /*header*/
+    .s2{
+    margin-right: 5em;
+    }
+    /*nav*/
+    nav .main{
+    margin-right: 0px;
+    }
+    nav ul a{
+	font-size:0.8em;
+	padding:0 5px;
+    }
+    nav ul ul li{
+	width:150px
+    }
+    nav ul ul a{
+	padding:5px 5px
+    }
+    /*home*/
+    .home{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .home .text{
+    font-size: 1em;
+    padding-top: 5px;
+    }
+    /*we*/
+    .we{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .we .text{
+    font-size: 0.8em;
+    padding-top: 25px;
+    }
+    .we img{
+    padding-top: 10px;
+    }
+    /*services*/
+    .service{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .service img{
+    padding-top: 150px;
+    }
+    /*guide*/
+    .guide{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .guide img{
+    padding-top: 250px;
+    }
+    .guide .text{
+    font-size: 0.8em;
+    }
+    /*learn*/
+    .learn{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .learn img{
+    padding-top: 250px;
+    }
+    /*solo*/
+    .solo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .solo img{
+    padding-top: 150px;
+    }
+    .solo .text{
+    font-size: 0.8em;
+    }
+    /*down*/
+    .down{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .down img{
+    padding-top: 150px;
+    }
+    .down .text{
+    font-size: 0.8em;
+    }
+    /*brain*/
+    .brain{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .brain img{
+    padding-top: 50px;
+    }
+    .brain .text{
+    font-size: 0.9em;
+    }
+    /*move*/
+    .move{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .move .text{
+    font-size: 0.8em;
+    }
+    /*palsy*/
+    .palsy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    } 
+    .palsy .text{
+    font-size: 1em;
+    }
+    /*edit*/
+    .edit{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .edit .text{
+    font-size: 0.8em;
+    }
+    .edit img{
+    }
+    /*therapy*/
+    .therapy{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .therapy .text{
+    font-size: 0.8em;
+    }
+    .therapy img{
+    padding-top: 150px;
+    }
+    /*early*/
+    .early{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .early .text{
+    font-size: 0.8em;
+    }
+    .early img{
+    padding-top: 200px;
+    }
+    /*skill*/
+    .skill{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .skill .text{
+    font-size: 0.8em;
+    }
+    .skill img{
+    padding-top: 150px;
+    }
+    /*speak*/
+    .speak{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .speak .text{
+    font-size: 0.8em;
+    }
+    .speak .photo{
+    padding-top: 250px;
+    }
+    /*consult*/
+    .consult{
+    font-size: 0.8em;
+    }
+    .consult .form{
+    font-size: 0.9em;
+    }
+    /*footer*/
+    footer span{
+   font-size: 1em;
+    }
+    /*scroll*/
+    #scroll{
+    width: 25px;
+    height: 20px;
+    right: 25px;
+    bottom: 20px;
+    }
+}
+/*large screen*/
+@media (min-width:1200px){
+    .home .text{
+    font-size: 1.3em;
+    }
+}
+/*end media query*/
+
